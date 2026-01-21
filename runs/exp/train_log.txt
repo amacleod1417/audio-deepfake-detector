@@ -1,0 +1,6 @@
+[Info] Starting training | model=resnet18 | epochs=15 | batch=32 | lr=0.0001
+[Info] Classes: {0: 'fake', 1: 'real'}
+[Info] Starting training | model=resnet18 | epochs=15 | batch=32 | lr=0.0001
+[Info] Classes: {0: 'fake', 1: 'real'}
+Epoch 001/15 | train_loss=0.4115 | val_loss=0.3637 | val_acc=0.9535 | val_prec=1.0000 | val_rec=0.9091 | val_f1=0.9524
+[Info] Saved new best model to ./runs/exp/best_model.pt (val_f1=0.9524)
